@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#wrapper{
+   padding: 0 20px;
+}
+
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ img{
+    height: 250px;
+    width: 308px;
+    border-radius: 5px 5px 0 0 
+}
+.product{
+    height: 480px;
+    width: 310px;
+    /* border: 1px solid black; */
+    margin: 30px 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 3px 3px rgb(181, 145, 145);
+    background:linear-gradient(45deg, #0000ff3d, #ff00002b)
+}
+p{
+    text-align: justify;
+    padding: 10px 15px 0 15px;
+}
+h3{
+    padding: 10px 15px 0 15px;
+}
